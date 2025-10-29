@@ -53,6 +53,8 @@ This platform combines athletic excellence with spiritual strength, featuring:
 
 "Rebuild Yourself and Get Signed" - After 2 back-to-back injuries, using my journey to show that you can rebuild yourself and make it. Just don't give up.
 
+I created this platform because personal trainers and elite coaching can be expensive, but every footballer deserves access to professional-level training. Now you can customize your own elite training plan even if you can't afford a personal trainer.
+
 Supporting footballers in their comeback journey through professional training protocols, proper nutrition, and faith-based motivation.
 
 ---
