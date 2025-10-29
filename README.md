@@ -51,7 +51,9 @@ This platform combines athletic excellence with spiritual strength, featuring:
 
 ## 🎯 Mission
 
-"Rebuild Yourself and Get Signed" - Supporting footballers in their comeback journey through professional training protocols, proper nutrition, and faith-based motivation.
+"Rebuild Yourself and Get Signed" - After 2 back-to-back injuries, using my journey to show that you can rebuild yourself and make it. Just don't give up.
+
+Supporting footballers in their comeback journey through professional training protocols, proper nutrition, and faith-based motivation.
 
 ---
 
