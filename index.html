@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAF's Comeback Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">⚽ AAF's Comeback Academy</h1>
+            <div class="nav-menu">
+                <a href="#profile" class="nav-link">Profile</a>
+                <a href="#workouts" class="nav-link">Workouts</a>
+                <a href="#nutrition" class="nav-link">Nutrition</a>
+                <a href="#progress" class="nav-link">Progress</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="stadium-atmosphere">
+            <div class="stadium-lights">
+                <div class="light light-1"></div>
+                <div class="light light-2"></div>
+                <div class="light light-3"></div>
+                <div class="light light-4"></div>
+            </div>
+            <div class="soccer-jersey">
+                <div class="jersey-front">
+                    <div class="jersey-collar"></div>
+                    <div class="jersey-number">10</div>
+                    <div class="jersey-name">FAKAI</div>
+                    <div class="jersey-logo">⚽</div>
+                    <div class="faith-cross-jersey">✝</div>
+                </div>
+            </div>
+            <div class="gym-equipment">
+                <div class="dumbbell"></div>
+                <div class="barbell"></div>
+            </div>
+            <div class="soccer-field-elements">
+                <div class="goal-post"></div>
+                <div class="soccer-ball-3d"></div>
+                <div class="cleats-pair"></div>
+            </div>
+            <div class="faith-elements">
+                <div class="large-cross">✝</div>
+                <div class="prayer-hands">🙏</div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">AAF's Comeback Academy</h1>
+                <p class="hero-creator">Created by Alex Ali Fakai, a footballer who is returning to make a statement</p>
+                <div class="hero-quote-container">
+                    <p id="rotating-quote" class="hero-quote">"Rebuild Yourself and Get Signed"</p>
+                </div>
+                <p class="hero-subtitle">Professional training protocols for elite comeback stories</p>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Elite Standards</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Comeback Support</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Potential</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faith & Inspiration Section -->
+    <section class="faith-section">
+        <div class="container">
+            <div class="faith-content">
+                <h3 class="faith-title">Faith & Restoration</h3>
+                <div class="bible-verse-container">
+                    <p id="rotating-verse" class="bible-verse">"I can do all things through Christ who strengthens me." - Philippians 4:13</p>
+                </div>
+                <p class="faith-subtitle">Find strength and hope in your comeback journey</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <!-- Profile Section -->
+        <section id="profile" class="section">
+            <div class="container">
+                <h2 class="section-title">Player Profile</h2>
+                <div class="profile-card">
+                    <div class="profile-form">
+                        <div class="form-group">
+                            <label for="height">Height</label>
+                            <div class="measurement-input">
+                                <div class="unit-toggle">
+                                    <button type="button" id="height-cm-btn" class="unit-btn active">CM</button>
+                                    <button type="button" id="height-ft-btn" class="unit-btn">FT/IN</button>
+                                </div>
+                                <div id="height-cm-input" class="unit-input-group">
+                                    <input type="number" id="height-cm" placeholder="175" min="150" max="220">
+                                    <span class="unit-label">cm</span>
+                                </div>
+                                <div id="height-ft-input" class="unit-input-group hidden">
+                                    <input type="number" id="height-ft" placeholder="5" min="4" max="7">
+                                    <span class="unit-label">ft</span>
+                                    <input type="number" id="height-in" placeholder="9" min="0" max="11">
+                                    <span class="unit-label">in</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="weight">Weight</label>
+                            <div class="measurement-input">
+                                <div class="unit-toggle">
+                                    <button type="button" id="weight-kg-btn" class="unit-btn active">KG</button>
+                                    <button type="button" id="weight-lbs-btn" class="unit-btn">LBS</button>
+                                </div>
+                                <div id="weight-kg-input" class="unit-input-group">
+                                    <input type="number" id="weight-kg" placeholder="70" min="40" max="120">
+                                    <span class="unit-label">kg</span>
+                                </div>
+                                <div id="weight-lbs-input" class="unit-input-group hidden">
+                                    <input type="number" id="weight-lbs" placeholder="154" min="88" max="265">
+                                    <span class="unit-label">lbs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age</label>
+                            <input type="number" id="age" placeholder="20" min="16" max="40">
+                        </div>
+                        <div class="form-group">
+                            <label for="position">Primary Position</label>
+                            <select id="position">
+                                <option value="">Select Primary Position</option>
+                                <option value="goalkeeper">Goalkeeper</option>
+                                <option value="defender">Defender</option>
+                                <option value="midfielder">Midfielder</option>
+                                <option value="forward">Forward</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="secondary-positions">Secondary Positions (Optional)</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="goalkeeper" class="secondary-position">
+                                    <span>Goalkeeper</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="defender" class="secondary-position">
+                                    <span>Defender</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="midfielder" class="secondary-position">
+                                    <span>Midfielder</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="forward" class="secondary-position">
+                                    <span>Forward</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="training-days">Team Training Days/Week</label>
+                            <input type="number" id="training-days" placeholder="3" min="0" max="7">
+                        </div>
+                        <div class="form-group">
+                            <label for="dietary-restrictions">Dietary Restrictions</label>
+                            <textarea id="dietary-restrictions" placeholder="List any foods you can't eat or preferences from your nutritionist..."></textarea>
+                        </div>
+                        <button id="save-profile" class="btn btn-primary">Save Profile</button>
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat-card">
+                            <h3>BMI</h3>
+                            <span id="bmi-value">--</span>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Target Weight</h3>
+                            <span id="target-weight">--</span>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Body Fat %</h3>
+                            <span id="body-fat">--</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workouts Section -->
+        <section id="workouts" class="section">
+            <div class="container">
+                <h2 class="section-title">Weekly Training Schedule</h2>
+                <div class="workout-container">
+                    <div class="workout-header">
+                        <h3 id="workout-title">Your Elite Training Program</h3>
+                        <button id="generate-workout" class="btn btn-secondary">Generate New Schedule</button>
+                    </div>
+                    <div id="workout-plan" class="workout-plan">
+                        <div class="schedule-table-container">
+                            <table class="schedule-table" id="workout-schedule">
+                                <thead>
+                                    <tr>
+                                        <th>Day</th>
+                                        <th>Morning Session</th>
+                                        <th>Evening Session</th>
+                                        <th>Focus</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="workout-schedule-body">
+                                    <tr>
+                                        <td colspan="4" class="placeholder-row">
+                                            <p class="workout-placeholder">Complete your profile to generate personalized workouts</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nutrition Section -->
+        <section id="nutrition" class="section">
+            <div class="container">
+                <h2 class="section-title">Weekly Nutrition Plan</h2>
+                <div class="nutrition-container">
+                    <div class="nutrition-header">
+                        <h3>Elite Fuel Strategy</h3>
+                        <div class="nutrition-stats">
+                            <span id="daily-calories">-- calories</span>
+                            <span id="daily-protein">-- protein</span>
+                            <span id="daily-water">-- water</span>
+                        </div>
+                    </div>
+                    <div class="schedule-table-container">
+                        <table class="schedule-table" id="nutrition-schedule">
+                            <thead>
+                                <tr>
+                                    <th>Day</th>
+                                    <th>Breakfast</th>
+                                    <th>Pre-Training</th>
+                                    <th>Post-Training</th>
+                                    <th>Dinner</th>
+                                </tr>
+                            </thead>
+                            <tbody id="nutrition-schedule-body">
+                                <tr>
+                                    <td colspan="5" class="placeholder-row">
+                                        <p class="nutrition-placeholder">Complete your profile to generate personalized nutrition plan</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progress Section -->
+        <section id="progress" class="section">
+            <div class="container">
+                <h2 class="section-title">Progress Tracking</h2>
+                <div class="progress-container">
+                    <div class="progress-chart">
+                        <canvas id="weight-chart" width="400" height="200"></canvas>
+                    </div>
+                    <div class="progress-log">
+                        <h3>Weight Log</h3>
+                        <div class="log-entry">
+                            <input type="date" id="log-date">
+                            <input type="number" id="log-weight" placeholder="Weight">
+                            <button id="add-log" class="btn btn-small">Add Entry</button>
+                        </div>
+                        <div id="weight-history" class="weight-history"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
