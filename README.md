@@ -23,7 +23,7 @@ Created by Alex Ali Fakai, a footballer who is returning to make a statement.
 
 ## 🚀 Live Demo
 
-Visit the live site: [Your GitHub Pages URL will go here]
+Visit the live site: [https://alexfakai.github.io/aafs-comeback-academy](https://alexfakai.github.io/aafs-comeback-academy)
 
 ## 💻 Technologies Used
 
